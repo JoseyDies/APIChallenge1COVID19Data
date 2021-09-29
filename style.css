@@ -1,0 +1,93 @@
+
+
+body {
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    
+}
+
+.heading {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3%;
+
+}
+
+#container{
+    background-color:#ffc87c;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    font: white;
+    column-gap: 25px;
+    row-gap: 25px;
+    width: 70%;
+    margin: auto;
+    padding: 3% 5%;
+    height: 480px;
+    max-height: 100%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px lightyellow;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#country {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvyDcAQFQ9gm3NpnkHx51ryBUUz5lIACkEg&usqp=CAUps://www.gannett-chttps://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coronavirus-economic-impact-royalty-free-image-1588623164.jpgdn.com/presto/2020/03/04/USAT/395cbfe1-9bc3-4dc7-80dc-2bdae5222530-corona_US-promo_art-01.jpg?auto=webp&crop=2091,1176,x1517,y177&format=pjpg&width=1200");
+    background-position: center;
+    /* background-size: 200%; */
+}
+
+#date {
+    background: #008E97
+}
+
+#container div {
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#totalConfirmed{
+    background:#008E97
+}
+
+#newConfirmed{
+    background: #008E97
+}
+
+#newDeaths{
+    background:#008E97
+}
+
+#totalDeaths{
+    background-color: #008E97
+}
+
+
+#newRecovered{
+    background: #008E97
+}
+
+#totalRecovered{
+    background: #008E97
+}
+
+.source {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    
+    color: whitesmoke
+}
+
+     
+        
+       
+ 
